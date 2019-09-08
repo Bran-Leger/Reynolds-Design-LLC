@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reynolds Design</title>
+
+  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700|Montserrat:400,700|Sacramento|Ubuntu:400,700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Bootstrap Script -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <a class="title navbar-brand" href="">Reynolds Design</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarQuickLinks" aria-controls="navbarQuickLinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarQuickLinks">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#services"> CAD-Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quote">Quote</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <!-- ADD MORE LATER -->
+          </ul>
+
+          <!-- Search Bar -->
+          <form class="form-inline nav-item">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Slidshow of Products -->
+  <section class="white-section">
+
+    <div class="container-fluid">
+
+      <div class="row intro">
+
+        <div class="col-lg-4 col-md-12">
+          <h1 class="intro-text">Professional Draft & Design AutoCAD Solutions to Fill Your Specific Needs</h1>
+        </div>
+
+        <div class="col-lg-8 col-md-12">
+
+          <div id="CAD-slideshow" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active container-fluid">
+                <img class="cadImage img-fluid" src="images/cad1.png" alt="CAD Drawing">
+              </div>
+              <div class="carousel-item container-fluid">
+                <img class="cadImage img-fluid " src="images/cad2.jpg" alt="CAD Drawing">
+              </div>
+              <div class="carousel-item container-fluid">
+                <img class="cadImage img-fluid" src="images/cad3.jpg" alt="CAD Drawing">
+              </div>
+              <div class="carousel-item container-fluid">
+                <img class="cadImage img-fluid" src="images/cad4.jpg" alt="CAD Drawing">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#CAD-slideshow" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#CAD-slideshow" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CAD Services -->
+  <section class="services">
+    <h2 class="cadServices">CAD Services</h2>
+
+    <!-- List of Services -->
+    <ul class="serviceList">
+
+      <div class="panel-group" id="accordion">
+        <li>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                  AutoCAD/SolidWorks Conversions</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                  AutoCAD Drafting</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                  Solidworks Drafting</a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse">
+              <div class="panel-body">
+                <ul>
+                  <li>Sheet Metal</li>
+                  <li>Injection Molded Plastic</li>
+                  <li>Surface Modeling</li>
+                  <li>Production Sheets</li>
+                  <li>Bill of Materials</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                  Product Sourcing</a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                  Research & Development</a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                  Market Research</a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</div>
+            </div>
+          </div>
+        </li>
+      </div>
+    </ul>
+  </section>
+
+  <!-- About -->
+  <section class="about">
+    <h2 class="aboutTitle">About</h2>
+    <div class="aboutMe">
+      <p>Reynolds Design LLC was founded by Wyatt McMartin in 2015 and has been involved in over 100 go-to-market designs in the high end furniture, medical device, and food service industries and also has experience doing designs for homestead and
+        home improvement type applications such as chicken coop & deck design as well as residential blueprint creation.</p>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="quote">
+    <h2 class="quoteTitle">Get a Quote</h2> <p class="quoteStuff">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</p>
+  </section>
+
+</body>
+
+</html>
