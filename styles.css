@@ -62,7 +62,6 @@ h1, h2, h3{
 
 .intro{
   /* padding-top: 4.5%; */
-  padding-left: 30px;
   padding-bottom: 30px;
 }
 
@@ -74,6 +73,7 @@ h1, h2, h3{
 /* Services */
 .services{
   background-color: silver;
+  padding: 70px 0 50px;
 }
 
 .cadServices{
@@ -145,7 +145,7 @@ h1, h2, h3{
 }
 
 .resume-section{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .contact{
