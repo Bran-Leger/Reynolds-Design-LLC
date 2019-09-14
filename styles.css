@@ -6,7 +6,7 @@ body{
 
 h1, h2, h3{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 3.52em;
+  font-size: 4em;
   text-align: center;
   font-weight: bold;
   line-height: 1.75;
@@ -24,9 +24,6 @@ h1, h2, h3{
   padding-left: 40px;
 }
 
-.navbar {
-}
-
 .nav-item {
   padding: 0 20px;
   font-size: 1.5rem;
@@ -34,8 +31,8 @@ h1, h2, h3{
 
 /* CAD Slideshow */
 .cadImage{
-  height: 500px;
-  width: 800px;
+  height: 550px;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -111,7 +108,9 @@ h1, h2, h3{
 /* About section */
 .about{
   color: #63aabc;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px;
+  padding-top: 40px; */
+  padding: 70px 0 50px;
 }
 
 .aboutTitle{
@@ -143,4 +142,13 @@ h1, h2, h3{
   /* height: 300px; */
   line-height: 2;
   margin: 0 15% 0;
+}
+
+.resume-section{
+  font-size: 1.5rem;
+}
+
+.contact{
+  font-size: 2rem;
+  padding-bottom: 10px;
 }
