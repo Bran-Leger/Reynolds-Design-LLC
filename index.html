@@ -10,7 +10,7 @@
 
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <!-- Bootstrap Script -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -43,17 +43,14 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#quote">Quote</a>
+              <a class="nav-link" href="#contact">Quote/Contact</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#footer">Team</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#footer">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
-            </li>
+            </li> -->
             <!-- ADD MORE LATER -->
           </ul>
 
@@ -246,7 +243,7 @@
   <!-- Quote/Contact -->
   <section class="resume-section p-4 p-lg-5 text-center quote" id="contact">
     <div class="my-auto">
-      <h2 class="mb-4"> Get a Quote or Just Say Hello </h2>
+      <h2 class="mb-4 quoteTitle"> Get a Quote or Just Say Hello </h2>
 
       <ul class="fa-ul mb-4 ml-0">
         <li id="mail-address" class="contact">
@@ -261,7 +258,7 @@
         </li>
       </ul>
 
-      <p>
+      <p class="finalMessage">
         Leave your message below and I will be back to you as soon as
         possible.
       </p>
@@ -278,7 +275,7 @@
           <textarea class="form-control" type="text" placeholder="Message" rows="7" name="name" required></textarea>
         </div>
 
-        <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+        <button type="submit" class="btn btn-lg btn-submit btn-info w-75">Submit</button>
       </form>
     </div>
   </section>
