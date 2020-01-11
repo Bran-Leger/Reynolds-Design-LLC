@@ -24,15 +24,18 @@ h1, h2, h3{
   padding-left: 40px;
 }
 
+.navbar {
+}
+
 .nav-item {
   padding: 0 20px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 /* CAD Slideshow */
 .cadImage{
-  height: 550px;
-  width: 1000px;
+  height: 500px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -44,7 +47,7 @@ h1, h2, h3{
   background-color: grey;
 }
 
-.slideshow {
+.white-section {
   background-color: grey;
 }
 
@@ -62,25 +65,24 @@ h1, h2, h3{
 
 .intro{
   /* padding-top: 4.5%; */
+  padding-left: 30px;
   padding-bottom: 30px;
 }
 
 .intro-text{
-  padding-top: 40px;
+  padding-top: 50px;
   color: #63aabc;
 }
 
 /* Services */
 .services{
   background-color: silver;
-  padding: 70px 0 50px;
 }
 
 .cadServices{
   text-align: left;
-  padding: 1% 2% 3%;
+  padding: 1% 2% 1%;
   color: white;
-
 }
 
 .panel-title{
@@ -109,9 +111,7 @@ h1, h2, h3{
 /* About section */
 .about{
   color: #63aabc;
-  /* padding-bottom: 20px;
-  padding-top: 40px; */
-  padding: 70px 0 50px;
+  padding-bottom: 20px;
 }
 
 .aboutTitle{
@@ -132,7 +132,7 @@ h1, h2, h3{
   background-color: #63aabc;
   padding-bottom: 50px;
 }
-/*
+
 .quoteTitle{
   text-align: left;
   padding-top: 30px;
@@ -141,34 +141,6 @@ h1, h2, h3{
 .quoteStuff{
   font-size: 2.3rem;
   /* height: 300px; */
-  /* line-height: 2;
-  margin: 0 15% 0;
-} */
-
-.quoteTitle{
-  font-size: 5rem;
-}
-
-.resume-section{
-  font-size: 2rem;
-}
-
-.contact{
-  /* font-size: 2rem; */
-  padding-bottom: 10px;
-  font-size: 2.5rem
-}
-
-.finalMessage{
-  margin: 0 10% 0;
   line-height: 2;
-  padding-bottom: 30px;
-}
-
-.form-control{
-  font-size: 1.5rem;
-}
-
-.btn-submit{
-  font-size: 1.5rem;
+  margin: 0 15% 0;
 }
